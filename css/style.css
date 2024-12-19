@@ -1,24 +1,40 @@
-.main {
-    text-align: center;
-    margin-top: 100px;
-  }
-  h2 {
-    padding-bottom: 50px;
-  }
-  .button {
-    padding: 50px;
-    margin: 10px;
-    border: 2px solid #32bbfb;
-  }
-  #grey {
-    background-color: grey;
-  }
-  #green {
-    background-color: green;
-  }
-  #yellow {
-    background-color: yellow;
-  }
-  #purple {
-    background-color: purple;
-  }
+.main1{
+  position: fixed;
+  width: 50px;
+  border: none !important;
+  right:10px;
+  top: 50%;
+  margin-bottom: 30px;
+  transform: translateY(-50%);
+}
+
+.main2{
+  padding:50px 50px;
+}
+.button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: none !important;
+}
+.button :last-child{
+  margin-bottom: 0px;
+}
+
+#red{
+  background-color: red;
+}
+#green{
+  background-color: green;
+}
+#purple{
+  background-color: purple;
+}
+#blue{
+  background-color: blue;
+}
+#yellow{
+  background-color: yellow;
+}
